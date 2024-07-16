@@ -1,0 +1,203 @@
+@import url(https://fonts.google.com/share?selection.family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700);
+*{
+
+    margin:0;
+    padding:0;
+}
+
+.logo{
+    width:100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width:80px;
+    border:solid black;
+    border-radius: 60px;
+}
+
+    
+
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+
+}
+
+.nav-list{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 26px 30px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    .nav-list li a:hover{
+        color: red;
+
+    }
+}
+.rightnav {
+    width: 100%;
+    text-align: right;
+    margin:  20px 10px;
+}
+
+#search {
+    box-sizing: border-box;
+    width: 40%;
+    padding: 5px;
+    font-size: 17px;
+    border: 2px  black;
+    border-radius: 9px;
+    vertical-align: centre;
+}
+.background{
+    background: rgba(0, 0, 0, 0.7) url("../polytechnic.jpeg");
+    background-size: cover;
+    background-blend-mode:darken;
+}
+.firstsection{
+    height: 100vh;
+}
+.box-main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 50%;
+    margin:auto;
+    height:80%;
+}
+.firstHalf{
+    width: 75% ;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+.secondHalf{
+width: 30px;
+}
+.secondHalf img{
+    width: 400%;
+    border:4px solid white;
+    border-radius:400px;
+    display: block;
+    margin: auto;
+}
+.text-big{
+    font-size: 35px;
+    text-align: center;
+}
+.text-small{
+    font-size: 18px;
+}
+.btn{
+    padding: 8px 20px;
+    margin: 7px 3px;
+    border: 2px solid grey;
+    border-radius: 8px;
+    font-size: 16px;
+    background: none;
+    color: black;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align: middle;
+    font-size: 16px;
+}
+.btn-dark{
+    color:solid black;
+    border:2px solid gery;
+}
+.section{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    .section sec-left{
+       text-decoration: column reverse;
+
+    }
+
+
+}
+.paras{
+    padding: 0px 65px;
+
+}
+.sectionTag{
+    padding: 16px 0;
+}
+.sectionSubtag{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.thumbnail img{
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 26px;
+    margin-top: 19px;
+
+}
+.Contact{
+    background-color: rgb(185, 185, 175);
+    height: 833px;
+}
+.text-center{
+    text-align: center;
+    padding-top: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 35px;
+}
+.form{
+    max-width: 1200px;
+    margin:  25px auto;
+}
+.form-input{
+    margin:14px 0;
+    padding: 5px 3px;
+    width: 100%;
+    font-size: 19px;
+    border: 2px solid grey;
+    border-radius: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text-footer{
+text-align: center;
+    width: 20px;
+    margin:40px 80px;
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+display: inline;
+justify-content: center;
+color:azure;
+}
+.classcn{
+    text-align: center;
+}
