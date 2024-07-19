@@ -14,7 +14,7 @@
     display:flex;
     justify-content: flex-start;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 60px;
 }
 .logo img{
     
@@ -33,7 +33,8 @@
     align-items: center;
     justify-content: center;
     position:sticky;
-    top: 0;
+    top: 0%;
+    bottom: 6px;
     cursor: pointer;
     padding:9px;
    color: black;
@@ -47,7 +48,7 @@
 
 .nav-list{
     width: 80px;
-    height: 0.5px;
+    height: 0.2px;
     background-color: black;
     display: flex;
     align-items: center;
@@ -57,7 +58,7 @@
 .nav-list li {
     list-style: none;
     padding: 20px 20px;
-    margin-top: 30px ;
+    margin-top: 60px ;
     align-items: center;
     display: center;
 }
@@ -91,9 +92,9 @@ margin-top: 0;
 font-size: 17px;
 border: 2px  black;
 border-radius: 5px;
-vertical-align: centre;
-display: centre;
-height: 50%;
+vertical-align: top;
+display: inline;
+height: 30%;
 
 }
 .background{
